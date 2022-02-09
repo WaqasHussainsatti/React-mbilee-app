@@ -15,7 +15,7 @@ class SoftwareConstrunction extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name:"Muhammad Hasnain",
+      name:"Waqas Hussain",
     Department:"UIIT",
    Degree:"BS Software engineering"
     }
@@ -37,37 +37,7 @@ class SoftwareConstrunction extends React.Component {
           <Text style={styles.userText}>Degree : {this.state.Degree} </Text>
         </View>
 
-        <View style={styles.form}>
-         
-
-         
-          <TextInput
-            style={styles.inputfield}
-          
-            autoFocus={true}
-            placeholder="Enter Your Name"
-            placeholderTextColor="#929292"
-            onChangeText={name=>this.setState({name})}
-          />
-          <TextInput
-            style={styles.inputfield}
         
-            autoFocus={true}
-            placeholder="Enter your Department"
-            placeholderTextColor="#929292"
-            onChangeText={Department=>this.setState({Department})} 
-          />
-          <TextInput
-            style={styles.inputfield}
-          
-            autoFocus={true}
-            placeholder="Enter Your degree"
-            placeholderTextColor="#929292"
-            onChangeText={Degree=>this.setState({Degree })}
-          />
-          
-          
-        </View>
 
       
       </View>
